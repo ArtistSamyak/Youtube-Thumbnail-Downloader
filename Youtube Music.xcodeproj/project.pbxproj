@@ -24,6 +24,7 @@
 		E333DB3425A1880900A4F901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E333DB3725A1880900A4F901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E333DB3925A1880900A4F901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E333DB4025A1880F00A4F901 /* Youtube Music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Youtube Music.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		E333DB2A25A1880600A4F901 /* Youtube Music */ = {
 			isa = PBXGroup;
 			children = (
+				E333DB4025A1880F00A4F901 /* Youtube Music.entitlements */,
 				E333DB2B25A1880600A4F901 /* AppDelegate.swift */,
 				E333DB2D25A1880600A4F901 /* SceneDelegate.swift */,
 				E333DB2F25A1880600A4F901 /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Youtube Music/Youtube Music.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "Youtube Music/Info.plist";
@@ -293,8 +296,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Youtube-Music";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtistSamyak.ThumbnailYT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Youtube Music/Youtube Music.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "Youtube Music/Info.plist";
@@ -312,8 +317,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.Youtube-Music";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtistSamyak.ThumbnailYT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
